@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="شركة العقارات الرائدة - نساعدك في إيجاد منزل أحلامك">
+    <title>شركة العقارات الرائدة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>🏘️ العقارات الرائدة</h1>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#properties" class="nav-link">العقارات</a></li>
+                    <li><a href="#services" class="nav-link">خدماتنا</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">اكتشف منزل أحلامك</h1>
+                <p class="hero-subtitle animate-fade-in">نساعدك في إيجاد العقار المثالي الذي يناسب احتياجاتك وميزانيتك
+                </p>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#properties" class="btn btn-primary">استكشف العقارات</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>استكشف المزيد</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="ابحث عن موقع أو نوع العقار...">
+                <select id="propertyType">
+                    <option value="">نوع العقار</option>
+                    <option value="شقة">شقة</option>
+                    <option value="فيلا">فيلا</option>
+                    <option value="مكتب">مكتب تجاري</option>
+                    <option value="أرض">أرض</option>
+                </select>
+                <select id="priceRange">
+                    <option value="">نطاق السعر</option>
+                    <option value="1">أقل من مليون</option>
+                    <option value="2">1-2 مليون</option>
+                    <option value="3">2-5 مليون</option>
+                    <option value="4">أكثر من 5 مليون</option>
+                </select>
+                <button class="btn btn-primary" id="searchBtn">بحث</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="properties-section" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">العقارات المميزة</h2>
+                <p class="section-subtitle">اكتشف أفضل العروض المتاحة لدينا</p>
+            </div>
+            <div class="properties-grid" id="propertiesGrid">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">نقدم مجموعة شاملة من الخدمات العقارية</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏡</div>
+                    <h3>بيع العقارات</h3>
+                    <p>نساعدك في بيع عقارك بأفضل سعر وفي أقصر وقت ممكن</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔑</div>
+                    <h3>تأجير العقارات</h3>
+                    <p>إيجاد المستأجر المثالي لعقارك مع ضمان حقوقك</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>استشارات عقارية</h3>
+                    <p>استشارات احترافية لمساعدتك في اتخاذ القرار الصحيح</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>تقييم العقارات</h3>
+                    <p>تقييم دقيق لعقارك بناءً على السوق الحالي</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h3>إدارة الممتلكات</h3>
+                    <p>إدارة كاملة لعقارك من الصيانة إلى التأجير</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3>التوثيق القانوني</h3>
+                    <p>إتمام جميع الإجراءات القانونية بشكل آمن وسليم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">من نحن</h2>
+                    <p>شركة العقارات الرائدة هي واحدة من أكبر الشركات العقارية في المنطقة، مع خبرة تمتد لأكثر من 15
+                        عاماً في مجال العقارات.</p>
+                    <p>نفخر بتقديم خدمات عقارية متكاملة تلبي جميع احتياجات عملائنا، من البحث عن العقار المناسب إلى إتمام
+                        جميع الإجراءات القانونية.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="1500">0</h3>
+                            <p>عقار مباع</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="3200">0</h3>
+                            <p>عميل راضٍ</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number" data-target="15">0</h3>
+                            <p>سنة خبرة</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <span>🏢</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">نحن هنا للإجابة على جميع استفساراتك</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>الموقع</h3>
+                        <p>شارع الملك فهد، الرياض<br>المملكة العربية السعودية</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>الهاتف</h3>
+                        <p>+966 50 123 4567<br>+966 11 234 5678</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>البريد الإلكتروني</h3>
+                        <p>youssifkady91@gmail.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="الاسم الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="رقم الهاتف" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>عن الشركة</h3>
+                    <p>شركة العقارات الرائدة - شريكك الموثوق في عالم العقارات</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#properties">العقارات</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <ul>
+                        <li>📞 +201019608978</li>
+                        <li>✉️ youssifkady91@gmail.com</li>
+                        <li>📍 الرياض، السعودية</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تابعنا</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📸</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 شركة العقارات الرائدة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
